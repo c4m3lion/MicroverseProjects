@@ -9,19 +9,22 @@ h2,
 h3,
 p {
 	margin: 0;
-    background-color: #eee;
+	background-color: #eee;
 }
-#main{
-	background:darkgray;
+#main {
+	background: darkgray;
 	margin: 20px;
 	border-radius: 100px;
 }
-p, h1, h2, h3{
+p,
+h1,
+h2,
+h3 {
 	padding: 30px;
 }
 body {
 	text-align: center;
-	background: white
+	background: white;
 }
 
 #id {
@@ -30,7 +33,7 @@ body {
 }
 
 #img-div {
-	background-color:white;
+	background-color: white;
 	width: 95%;
 	margin: auto;
 	padding: 20px;
@@ -44,10 +47,10 @@ body {
 	height: auto;
 }
 
-@media (max-width:40em) {
+@media (max-width: 40em) {
 	#img-div img {
 		border-radius: 25px;
 		width: 90%;
 		height: auto;
-	}	
+	}
 }
