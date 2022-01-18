@@ -11,9 +11,17 @@ p {
 	margin: 0;
     background-color: #eee;
 }
-
+#main{
+	background:darkgray;
+	margin: 20px;
+	border-radius: 100px;
+}
+p, h1, h2, h3{
+	padding: 30px;
+}
 body {
 	text-align: center;
+	background: white
 }
 
 #id {
@@ -22,11 +30,24 @@ body {
 }
 
 #img-div {
-	width: 100%;
+	background-color:white;
+	width: 95%;
 	margin: auto;
+	padding: 20px;
+	padding-top: 50px;
+	border-radius: 50px;
 }
 
 #img-div img {
-	width: 100%;
+	border-radius: 25px;
+	width: 60%;
 	height: auto;
+}
+
+@media (max-width:40em) {
+	#img-div img {
+		border-radius: 25px;
+		width: 90%;
+		height: auto;
+	}	
 }
