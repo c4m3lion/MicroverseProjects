@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+body {
+	text-align: center;
+}
+
+#id {
+	max-width: 1280px;
+	height: 100%;
+}
+
+#img-div {
+	width: 100%;
+	margin: auto;
+}
+
+#img-div img {
+	width: 100%;
+	height: auto;
+}
